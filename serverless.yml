@@ -1,0 +1,9 @@
+service: email-validator
+
+provider:
+  name: aws
+  runtime: python3.8
+
+functions:
+  main:
+    handler: handler.validate
