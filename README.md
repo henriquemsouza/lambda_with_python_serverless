@@ -24,3 +24,7 @@ serverless invoke local --data '{"body": "{\"email\": \"test@example.com\"}"}' -
     "body": "{\"result\": true}"
 }
 ```
+
+Reference:
+
+[Serverless](https://www.serverless.com/framework/docs/providers/aws)
